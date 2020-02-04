@@ -31,8 +31,8 @@ fa = {
 
     "media-directory-list-updated-notification": "Syncplay media directories have been updated.",
 
-    "room-join-notification": "{} has joined the room: '{}'",  # User
-    "left-notification": "{} has left",  # User
+    "room-join-notification": "{} وارد شد '{}' به اتاق",  # User
+    "left-notification": "{} خارج شد",  # User
     "left-paused-notification": "{} left, {} paused",  # User who left, User who paused
     "playing-notification": "{} is playing '{}' ({})",  # User, file, duration
     "playing-notification/room-addendum":  " in room: '{}'",  # Room
@@ -55,7 +55,7 @@ fa = {
     "file-difference-filename": "name",
     "file-difference-filesize": "size",
     "file-difference-duration": "duration",
-    "alone-in-the-room": "You're alone in the room",
+    "alone-in-the-room": "شما در اتاق تنهایید",
 
     "different-filesize-notification": " (their file size is different from yours!)",
     "userlist-playing-notification": "{} is playing:",  # Username
@@ -185,10 +185,10 @@ fa = {
     "room-label": "<- اسم اتاق",
 
     "media-setting-title": "تنظیمات پخش کننده",
-    "executable-path-label": "<- آدرس پخش کننده تصویری (تریجیحا VLC)",
+    "executable-path-label": "<- آدرس پخش کننده تصویری (مثلا VLC)",
     "media-path-label": "<- آدرس فیلم (دلبخواهی)",
     "player-arguments-label": "<- ورودی پلیر (در صورت وجود)",
-    "browse-label": "Browse",
+    "browse-label": "انتخاب آدرس",
     "update-server-list-label": "Update list",
 
     "more-title": "نمایش تنظیمات بیشتر",
@@ -269,39 +269,39 @@ fa = {
     "run-label": "شروع باهمبین",
     "storeandrun-label": "ذخیره اطلاعات و شروع باهمین",
 
-    "contact-label": "Feel free to e-mail <a href=\"mailto:dev@syncplay.pl\"><nobr>dev@syncplay.pl</nobr></a>, chat via the <a href=\"https://webchat.freenode.net/?channels=#syncplay\"><nobr>#Syncplay IRC channel</nobr></a> on irc.freenode.net, <a href=\"https://github.com/Uriziel/syncplay/issues\"><nobr>raise an issue</nobr></a> via GitHub, <a href=\"https://www.facebook.com/SyncplaySoftware\"><nobr>like us on Facebook</nobr></a>, <a href=\"https://twitter.com/Syncplay/\"><nobr>follow us on Twitter</nobr></a>, or visit <a href=\"https://syncplay.pl/\"><nobr>https://syncplay.pl/</nobr></a>. Do not use Syncplay to send sensitive information.",
+    "contact-label": "Contact us (Telegram) : <a href=\"https://telegram.me/ahmadrezadl\"><nobr>Ahmadrezadl</nobr></a>.",
 
-    "joinroom-label": "Join room",
-    "joinroom-menu-label": "Join room {}",
-    "seektime-menu-label": "Seek to time",
-    "undoseek-menu-label": "Undo seek",
-    "play-menu-label": "Play",
-    "pause-menu-label": "Pause",
+    "joinroom-label": "ورود به اتاق",
+    "joinroom-menu-label": "ورودی به اتاق {}",
+    "seektime-menu-label": "پرش به یک زمان",
+    "undoseek-menu-label": "برگشت پرش",
+    "play-menu-label": "شروع",
+    "pause-menu-label": "توقف",
     "playbackbuttons-menu-label": "Show playback buttons",
     "autoplay-menu-label": "Show auto-play button",
     "autoplay-guipushbuttonlabel": "Play when all ready",
     "autoplay-minimum-label": "Min users:",
 
-    "sendmessage-label": "Send",
+    "sendmessage-label": "ارسال",
 
-    "ready-guipushbuttonlabel": "I'm ready to watch!",
+    "ready-guipushbuttonlabel": "من آماده ی تماشا هستم",
 
-    "roomuser-heading-label": "Room / User",
-    "size-heading-label": "Size",
-    "duration-heading-label": "Length",
-    "filename-heading-label": "Filename",
+    "roomuser-heading-label": "اتاق / کاربر",
+    "size-heading-label": "حجم",
+    "duration-heading-label": "مدت زمان",
+    "filename-heading-label": "اسم فایل",
     "notifications-heading-label": "Notifications",
-    "userlist-heading-label": "List of who is playing what",
+    "userlist-heading-label": "لیست اینکه کی چی میبینه؟",
 
     "browseformedia-label": "Browse for media files",
 
-    "file-menu-label": "&File",  # & precedes shortcut key
-    "openmedia-menu-label": "&Open media file",
-    "openstreamurl-menu-label": "Open &media stream URL",
-    "setmediadirectories-menu-label": "Set media &directories",
-    "loadplaylistfromfile-menu-label": "&Load playlist from file",
-    "saveplaylisttofile-menu-label": "&Save playlist to file",
-    "exit-menu-label": "E&xit",
+    "file-menu-label": "فایل",  # & precedes shortcut key
+    "openmedia-menu-label": "باز کردن فیلم",
+    "openstreamurl-menu-label": "باز کردن لینک فیلم",
+    "setmediadirectories-menu-label": "تنظیم کردن فولدر فیلم ها",
+    "loadplaylistfromfile-menu-label": "بازیابی لیست پخش از فایل",
+    "saveplaylisttofile-menu-label": "ذخیره لیست پخش تو فایل",
+    "exit-menu-label": "خروج",
     "advanced-menu-label": "&Advanced",
     "window-menu-label": "&Window",
     "setoffset-menu-label": "Set &offset",
@@ -316,7 +316,7 @@ fa = {
     "paste-menu-label": "&Paste",
     "selectall-menu-label": "&Select All",
 
-    "playback-menu-label": "&Playback",
+    "playback-menu-label": "پخش",
 
     "help-menu-label": "&Help",
     "userguide-menu-label": "Open user &guide",
@@ -484,7 +484,7 @@ fa = {
     "cannot-find-file-for-playlist-switch-error": "Could not find file {} in media directories for playlist switch!",  # Filename
     "cannot-add-duplicate-error": "Could not add second entry for '{}' to the playlist as no duplicates are allowed.",  # Filename
     "cannot-add-unsafe-path-error": "Could not automatically load {} because it is not on a trusted domain. You can switch to the URL manually by double clicking it in the playlist, and add trusted domains via File->Advanced->Set Trusted Domains. If you right click on a URL then you can add its domain as a trusted domain via the context menu.",  # Filename
-    "sharedplaylistenabled-label": "Enable shared playlists",
+    "sharedplaylistenabled-label": "فعال بودن لیست مشترک",
     "removefromplaylist-menu-label": "Remove from playlist",
     "shuffleremainingplaylist-menu-label": "Shuffle remaining playlist",
     "shuffleentireplaylist-menu-label": "Shuffle entire playlist",
@@ -501,6 +501,6 @@ fa = {
     "openusersstream-menu-label": "Open {}'s stream",  # [username]'s
     "openusersfile-menu-label": "Open {}'s file",  # [username]'s
 
-    "playlist-instruction-item-message": "Drag file here to add it to the shared playlist.",
+    "playlist-instruction-item-message": "فایل هارا بکشید تا به لیست مشترک اضافه کنید",
     "sharedplaylistenabled-tooltip": "Room operators can add files to a synced playlist to make it easy for everyone to watching the same thing. Configure media directories under 'Misc'.",
 }
