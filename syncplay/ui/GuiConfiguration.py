@@ -154,7 +154,7 @@ class ConfigDialog(QtWidgets.QDialog):
         self.setFixedWidth(self.minimumSizeHint().width())
 
     def openHelp(self):
-        self.QtGui.QDesktopServices.openUrl(QUrl("https://syncplay.pl/guide/client/"))
+        self.QtGui.QDesktopServices.openUrl(QUrl("https://github.com/Ahmadrezadl/BaHamBin"))
 
     def safenormcaseandpath(self, path):
         if utils.isURL(path):
