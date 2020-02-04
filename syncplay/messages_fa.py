@@ -178,13 +178,13 @@ fa = {
     # Client labels
     "config-window-title": "Syncplay configuration",
 
-    "connection-group-title": "Connection settings",
+    "connection-group-title": "تنظیمات اتصال",
     "host-label": "<- آدرس سرور",
     "name-label":  "<- نام کاربری",
     "password-label":  "<- رمز سرور (در صورت وجود)",
     "room-label": "<- اسم اتاق",
 
-    "media-setting-title": "Media player settings",
+    "media-setting-title": "تنظیمات پخش کننده",
     "executable-path-label": "<- آدرس پخش کننده تصویری (تریجیحا VLC)",
     "media-path-label": "<- آدرس فیلم (دلبخواهی)",
     "player-arguments-label": "<- ورودی پلیر (در صورت وجود)",
@@ -204,9 +204,9 @@ fa = {
     "rewindondesync-label": "Rewind on major desync (recommended)",
     "fastforwardondesync-label": "سریع به جلو ببر اگر عقب هستی (پیشنهادی)",
     "dontslowdownwithme-label": "هرگز سرعت فیلم را کم نکن و صحنه را دوبار نشان نده (آزمایشی)",
-    "pausing-title": "Pausing",
-    "pauseonleave-label": "استپ شدن فیلم درصورت خروج کاربر",
-    "readiness-title": "Initial readiness state",
+    "pausing-title": "توقف",
+    "pauseonleave-label": "استپ شدن فیلم درصورت خروج",
+    "readiness-title": "تنظیمات اولیه وضعیت آمادگی",
     "readyatstart-label": "به صورت پیشفرض من آماده ی تماشای فیلمم",
     "forceguiprompt-label": "Don't always show the Syncplay configuration window",  # (Inverted)
     "showosd-label": "Enable OSD Messages",
@@ -220,7 +220,7 @@ fa = {
     "automatic-language": "Default ({})",  # Default language
     "showdurationnotification-label": "Warn about media duration mismatches",
     "basics-label": "صفحه اصلی",
-    "readiness-label": "Play/Pause",
+    "readiness-label": "پخش و توقف",
     "misc-label": "Misc",
     "core-behaviour-title": "Core room behaviour",
     "syncplay-internals-title": "Syncplay internals",
@@ -235,7 +235,7 @@ fa = {
     "chat-label": "Chat",
     "privacy-label": "Privacy",  # Currently unused, but will be brought back if more space is needed in Misc tab
     "privacy-title": "Privacy settings",
-    "unpause-title": "در صورت فشار دادن دکمه ی play, یعنی من آماده ام و:",
+    "unpause-title": "در صورت فشار دادن دکمه ی پخش, یعنی من آماده ام و:",
     "unpause-ifalreadyready-option": "ادامه ی فیلم پخش شه اگه همه مثل من آمادن",
     "unpause-ifothersready-option": "ادامه ی فیلم پخش شه اگه همه آمادن یا من از قبل تر آماده بودم (پیشفرض)",
     "unpause-ifminusersready-option": "ادامه ی فیلم پخش شه اگه همه آماده بودن یا من از قبل تر آماده بودم یا حداقل تعداد مورد نیاز آماده بودن",
