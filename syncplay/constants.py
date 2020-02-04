@@ -36,7 +36,7 @@ LIST_RELATIVE_CONFIGS = True  # Print list of relative configs loaded
 SHOW_CONTACT_INFO = True  # Displays dev contact details below list in GUI
 SHOW_TOOLTIPS = True
 WARN_ABOUT_MISSING_STRINGS = False  # (If debug mode is enabled)
-FALLBACK_INITIAL_LANGUAGE = "en"
+FALLBACK_INITIAL_LANGUAGE = "fa"
 FALLBACK_PUBLIC_SYNCPLAY_SERVERS = [
     ['syncplay.pl:8995 (France)', 'syncplay.pl:8995'],
     ['syncplay.pl:8996 (France)', 'syncplay.pl:8996'],

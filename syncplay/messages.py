@@ -1,5 +1,5 @@
 # coding:utf8
-from syncplay import constants
+from syncplay import constants, messages_fa
 
 from . import messages_en
 from . import messages_ru
@@ -8,12 +8,13 @@ from . import messages_it
 from . import messages_es
 
 messages = {
+    "fa": messages_fa.fa,
     "en": messages_en.en,
     "ru": messages_ru.ru,
     "de": messages_de.de,
     "it": messages_it.it,
     "es": messages_es.es,
-    "CURRENT": None
+    "CURRENT": "fa"
 }
 
 
@@ -44,14 +45,15 @@ def getMissingStrings():
 
 
 def getInitialLanguage():
-    import locale
-    try:
-        initialLanguage = locale.getdefaultlocale()[0].split("_")[0]
-        if initialLanguage not in messages:
-            initialLanguage = constants.FALLBACK_INITIAL_LANGUAGE
-    except:
-        initialLanguage = constants.FALLBACK_INITIAL_LANGUAGE
-    return initialLanguage
+    return constants.FALLBACK_INITIAL_LANGUAGE
+    # import locale
+    # try:
+    #     initialLanguage = locale.getdefaultlocale()[0].split("_")[0]
+    #     if initialLanguage not in messages:
+    #         initialLanguage = constants.FALLBACK_INITIAL_LANGUAGE
+    # except:
+    #     initialLanguage = constants.FALLBACK_INITIAL_LANGUAGE
+    # return initialLanguage
 
 
 def isValidLanguage(language):
