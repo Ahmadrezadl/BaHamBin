@@ -225,7 +225,7 @@ fa = {
     "core-behaviour-title": "رفتار اصلی اتاق",
     "syncplay-internals-title": "تنظیمات داخلی باهمبین",
     "syncplay-mediasearchdirectories-title": "آدرس هایی که فیلم ها موجودند",
-    "syncplay-mediasearchdirectories-label": "Directories to search for media (one path per line)",
+    "syncplay-mediasearchdirectories-label": "آدرس هایی که در آن فیلم موجود هستند (هر آدرس در خط جدا)",
     "sync-label": "هماهنگی",
     "sync-otherslagging-title": "اگر بقیه از فیلم عقب افتادند",
     "sync-youlaggging-title": "اگر از فیلم عقب افتادید",
@@ -233,8 +233,8 @@ fa = {
     "messages-osd-title": "تنظیمات روی صفحه ی فیلم",
     "messages-other-title": "تنظیمات نمایشی دیگر",
     "chat-label": "چت",
-    "privacy-label": "Privacy",  # Currently unused, but will be brought back if more space is needed in Misc tab
-    "privacy-title": "Privacy settings",
+    "privacy-label": "شخصی",
+    "privacy-title": "تنظیمات شخصی",
     "unpause-title": "در صورت فشار دادن دکمه ی پخش, یعنی من آماده ام و:",
     "unpause-ifalreadyready-option": "ادامه ی فیلم پخش شه اگه همه مثل من آمادن",
     "unpause-ifothersready-option": "ادامه ی فیلم پخش شه اگه همه آمادن یا من از قبل تر آماده بودم (پیشفرض)",
@@ -277,10 +277,10 @@ fa = {
     "undoseek-menu-label": "برگشت پرش",
     "play-menu-label": "شروع",
     "pause-menu-label": "توقف",
-    "playbackbuttons-menu-label": "Show playback buttons",
-    "autoplay-menu-label": "Show auto-play button",
-    "autoplay-guipushbuttonlabel": "Play when all ready",
-    "autoplay-minimum-label": "Min users:",
+    "playbackbuttons-menu-label": "نمایش دکمه های پخش",
+    "autoplay-menu-label": "نمایش دکمه های پخش خودکار",
+    "autoplay-guipushbuttonlabel": "شروع بعد از آمادگی همه",
+    "autoplay-minimum-label": "<- حداقل آماده ها",
 
     "sendmessage-label": "ارسال",
 
@@ -290,7 +290,7 @@ fa = {
     "size-heading-label": "حجم",
     "duration-heading-label": "مدت زمان",
     "filename-heading-label": "اسم فایل",
-    "notifications-heading-label": "Notifications",
+    "notifications-heading-label": "اعلانات",
     "userlist-heading-label": "لیست اینکه کی چی میبینه؟",
 
     "browseformedia-label": "Browse for media files",
@@ -302,12 +302,12 @@ fa = {
     "loadplaylistfromfile-menu-label": "بازیابی لیست پخش از فایل",
     "saveplaylisttofile-menu-label": "ذخیره لیست پخش تو فایل",
     "exit-menu-label": "خروج",
-    "advanced-menu-label": "&Advanced",
-    "window-menu-label": "&Window",
-    "setoffset-menu-label": "Set &offset",
-    "createcontrolledroom-menu-label": "&Create managed room",
-    "identifyascontroller-menu-label": "&Identify as room operator",
-    "settrusteddomains-menu-label": "Set &trusted domains",
+    "advanced-menu-label": "پیشرفته",
+    "window-menu-label": "اضافات",
+    "setoffset-menu-label": "انتخاب تفاوت زمانی",
+    "createcontrolledroom-menu-label": "ساخت اتاق مدیریت شده",
+    "identifyascontroller-menu-label": "من مدیر این اتاقم",
+    "settrusteddomains-menu-label": "مشخص کردن آدرس های اعتماد شده",
     "addtrusteddomain-menu-label": "Add {} as trusted domain",  # Domain
 
     "edit-menu-label": "&Edit",
@@ -318,9 +318,9 @@ fa = {
 
     "playback-menu-label": "پخش",
 
-    "help-menu-label": "&Help",
-    "userguide-menu-label": "Open user &guide",
-    "update-menu-label": "Check for &update",
+    "help-menu-label": "راهنما",
+    "userguide-menu-label": "باز کردن راهنمای کاربران",
+    "update-menu-label": "چک کردن برای بروزرسانی",
 
     "startTLS-initiated": "Attempting secure connection",
     "startTLS-secure-connection-ok": "Secure connection established ({})",
@@ -336,14 +336,14 @@ fa = {
     "tls-dialog-certificate-label": "Certificate issued by {} valid until {}.",
 
     # About dialog
-    "about-menu-label": "&About Syncplay",
+    "about-menu-label": "درباره ی سینک پلی",
     "about-dialog-title": "About Syncplay",
     "about-dialog-release": "Version {} release {}",
     "about-dialog-license-text": "Licensed under the Apache&nbsp;License,&nbsp;Version 2.0",
     "about-dialog-license-button": "License",
     "about-dialog-dependencies": "Dependencies",
 
-    "setoffset-msgbox-label": "Set offset",
+    "setoffset-msgbox-label": "انتخاب تفاوت زمانی",
     "offsetinfo-msgbox-label": "Offset (see https://syncplay.pl/guide/ for usage instructions):",
 
     "promptforstreamurl-msgbox-label": "Open media stream URL",
@@ -358,7 +358,7 @@ fa = {
     "createcontrolledroom-msgbox-label": "Create managed room",
     "controlledroominfo-msgbox-label": "Enter name of managed room\r\n(see https://syncplay.pl/guide/ for usage instructions):",
 
-    "identifyascontroller-msgbox-label": "Identify as room operator",
+    "identifyascontroller-msgbox-label": "من مدیر این اتاق هستم",
     "identifyinfo-msgbox-label": "Enter operator password for this room\r\n(see https://syncplay.pl/guide/ for usage instructions):",
 
     "public-server-msgbox-label": "Select the public server for this viewing session",
@@ -480,7 +480,7 @@ fa = {
 
     # Playlists
     "playlist-selection-changed-notification":  "{} changed the playlist selection",  # Username
-    "playlist-contents-changed-notification": "{} updated the playlist",  # Username
+    "playlist-contents-changed-notification": "{} پلی لیست خود را تغییر داد",  # Username
     "cannot-find-file-for-playlist-switch-error": "Could not find file {} in media directories for playlist switch!",  # Filename
     "cannot-add-duplicate-error": "Could not add second entry for '{}' to the playlist as no duplicates are allowed.",  # Filename
     "cannot-add-unsafe-path-error": "Could not automatically load {} because it is not on a trusted domain. You can switch to the URL manually by double clicking it in the playlist, and add trusted domains via File->Advanced->Set Trusted Domains. If you right click on a URL then you can add its domain as a trusted domain via the context menu.",  # Filename
